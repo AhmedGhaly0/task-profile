@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content ="welcome to new">
+        <title>Task 3</title>
+   
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div class="link" ><a href="update.html">Update Data</a>  <a href="delete.html">Delete Data</a><a href="view.php" style="float: right; margin-right: 50px;"> View All Dtat</a></div>
+        
+    
+        <div class="form3">
+            <h1>Add Data </h1>
+              <form   action="send.php" method="post" >
+                  <div class="username">
+                     <label>username :</label>
+                     <input required type="text"name="username" id="fuser" placeholder="Please Pype Youre UserName">
+                  </div>
+      
+                  <div class="password">		
+                    <label>Email :</label>
+                    <input required type="email" name="email" id="femail"  placeholder="Please Type Email">
+                 </div> 
+                 <div class="password">		
+                    <label>password :</label>
+                    <input required type="password" name="password" id="fpassword"  placeholder="Please Type Tassword">
+                 </div>
+                  <div class="submit">	
+                     <input type="submit" value="SEND" onclick="border()" >
+                  </div>	
+                   
+              </form>
+          </div>
+
+      <script src="js.js"></script>
+    </body>
+</html>
